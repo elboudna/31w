@@ -1,14 +1,13 @@
 /**
-* styles pour h1 jusqu'à h6 et p
-*
+*  styles pour h1,h2,h3,h4,h5mh6 et p
 */
 
-h1,h2 {
-    font-family: lighten($color__h, 40%);
-}
 
-h3,h4,h5,h6,p {
-    font-family: lighten($color__h, 20%);
+h1,h2 {
+    color : lighten($color__h, 40%);
+}
+h2,h3,h4,h5,h6,p {
+    color : lighten($color__h, 10%);
 }
 
 h1 {

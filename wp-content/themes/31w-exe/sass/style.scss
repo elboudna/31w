@@ -1,19 +1,24 @@
-/*!
-Theme Name: 31w - exercice 1 et 2
-Author: elboudna
-Author URI: http://github.com/elboudna
-Description: Theme de base pour le cours 31w
+/*! 
+Theme Name: 31W-cours 
+Author: Eddy Martin
+Author URI: http://github.com/eddytuto
+Description: Thème de base pour le cours de 31W
 Version: 1.0.0
 Tested up to: 5.4
-Requires PHP: 5.6
+Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: 31w-update
+Text Domain: 31-w
 */
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
+# variable
+	- couleur
+	- police
+	- dimension
+
 # Generic
 	- Normalize
 	- Box sizing
@@ -22,8 +27,8 @@ Text Domain: 31w-update
 	- Elements
 	- Links
 	- Forms
-## Layouts
-# Components
+## Layout
+# Composent
 	- Navigation
 	- Posts and pages
 	- Widgets
@@ -37,11 +42,12 @@ Text Domain: 31w-update
 
 --------------------------------------------------------------*/
 
-/* Variables
+/* variable
 --------------------------------------------- */
-@import "variables/colors";
-@import "variables/dimensions";
-@import "variables/typography";
+@import "variable/typography";
+@import "variable/dimension";
+@import "variable/colors";
+
 
 /*--------------------------------------------------------------
 # Generic

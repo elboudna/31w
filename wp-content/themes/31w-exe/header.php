@@ -1,5 +1,13 @@
+<?php
+ /**
+  * Template header
+  * Ve template est intégré dans tous les modèles de thème
+  * @link : https://developer.wordpress.org/themes/
+  * @package : 31w
+  */
+?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?>  >
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +19,15 @@
         <header class="site__header">
             <section class="site__branding">
                 <h1>
-                    <a href="<?= esc_url(home_url('/'));?>"><?= bloginfo('name');?></a>
+                    <a href="<?= esc_url( home_url( '/' ) ) ?>"><?= bloginfo( 'name' ); ?></a>
                 </h1>
                 <h2>
-                <?= bloginfo('description');?>
+                <?= bloginfo( 'description' ); ?>
                 </h2>
             </section>
             <nav class="site__navigation">
-                Menu
+            Menu
             </nav>
         </header>
+    
+
